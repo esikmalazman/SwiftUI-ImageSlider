@@ -11,6 +11,7 @@
 		7FE891612A37B4BE001C4D32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE891602A37B4BE001C4D32 /* ContentView.swift */; };
 		7FE891632A37B4C0001C4D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FE891622A37B4C0001C4D32 /* Assets.xcassets */; };
 		7FE891662A37B4C0001C4D32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FE891652A37B4C0001C4D32 /* Preview Assets.xcassets */; };
+		7FE8916D2A37B4D6001C4D32 /* ImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE8916C2A37B4D6001C4D32 /* ImageSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7FE891602A37B4BE001C4D32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7FE891622A37B4C0001C4D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FE891652A37B4C0001C4D32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FE8916C2A37B4D6001C4D32 /* ImageSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7FE8915E2A37B4BE001C4D32 /* ImageSlider_SwiftUIApp.swift */,
 				7FE891602A37B4BE001C4D32 /* ContentView.swift */,
+				7FE8916C2A37B4D6001C4D32 /* ImageSlider.swift */,
 				7FE891622A37B4C0001C4D32 /* Assets.xcassets */,
 				7FE891642A37B4C0001C4D32 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				7FE891612A37B4BE001C4D32 /* ContentView.swift in Sources */,
 				7FE8915F2A37B4BE001C4D32 /* ImageSlider_SwiftUIApp.swift in Sources */,
+				7FE8916D2A37B4D6001C4D32 /* ImageSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
